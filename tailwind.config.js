@@ -11,6 +11,7 @@ export default {
         green: "#028643",
         silver: "#FAFAFA",
         silver2: "#fbfbfb",
+        silver3: "#F5F5F5",
         gray: "#e8e8e8",
       },
     },
