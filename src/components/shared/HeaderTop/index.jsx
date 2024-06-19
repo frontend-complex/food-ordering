@@ -14,7 +14,7 @@ const HeaderTop = () => {
           <span className="text-orange font-bold">Promo: ORDER5</span>
         </p>
       </div>
-      <div className="flex flex-row justify-end  gap-20  w-7/12">
+      <div className="flex flex-row justify-between  w-7/12">
         <div className="flex  pt-6 pb-5 px-9  flex-row items-center text-[15px] gap-4 ">
           <TiLocation className="text-xl" />
           <p className="font-medium">Regent Street, A4, A4201, London</p>
@@ -23,16 +23,16 @@ const HeaderTop = () => {
           </a>
         </div>
         <div className="bg-green flex flex-row items-center text-white w-max rounded-b-xl ">
-          <div className="py-4 px-5 h-full text-xl border-r border-white">
-            <PiBasketFill />
+          <div className="py-4 px-5 flex items-center h-full border-r border-white">
+            <PiBasketFill className="text-2xl " />
           </div>
-          <p className="py-4 px-5  h-full border-r border-white text-base font-semibold">
+          <p className="py-4 px-5 flex items-center  h-full border-r border-white text-base font-semibold">
             23 Items
           </p>
-          <p className="py-4 px-5  h-full border-r border-white text-base font-semibold">
+          <p className="py-4 px-5 flex items-center  h-full border-r border-white text-base font-semibold">
             GBP 79.89
           </p>
-          <div className="py-4 px-5 h-full text-xl border-r border-white">
+          <div className="py-4 px-5 flex items-center h-full text-xl border-r border-white">
             <FaCircleArrowDown />
           </div>
         </div>
