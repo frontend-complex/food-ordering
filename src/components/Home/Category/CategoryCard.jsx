@@ -9,7 +9,7 @@ const CategoryCard = ({ img, title, total, className }) => {
           className="w-full rounded-t-xl group-hover:scale-105 transition-all duration-300"
         />
       </div>
-      <div className="flex flex-col gap-1 px-5 py-2 bg-silver3">
+      <div className="flex flex-col gap-1 px-5 py-2 rounded-b-xl bg-silver3">
         <h4 className="text-[#03081F]  font-bold font-poppins text-lg">
           {title}
         </h4>

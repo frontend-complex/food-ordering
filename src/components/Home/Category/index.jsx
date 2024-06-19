@@ -1,4 +1,4 @@
-import React from "react";
+
 import SectionHeading from "../../ui/FooterHeading/SectionHeading";
 import { categoryList } from "../../../constants/category.constant";
 import CategoryCard from "./CategoryCard";
