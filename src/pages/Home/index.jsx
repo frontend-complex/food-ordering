@@ -10,7 +10,7 @@ const Home = () => {
       <Banner />
       <ExclusiveDeals />
       <Category />
-      <PopularRestaurant />
+      <PopularRestaurant title={"Popular Restaurants"} />
       <AdvertizeBanner />
     </div>
   );
