@@ -1,3 +1,4 @@
+/* eslint-disable react/prop-types */
 const TimeShedule = ({ time, className }) => {
   return (
     <div className={`${className} mt-8`}>
