@@ -67,7 +67,7 @@ const foodStore = [
       {
         id: 1,
         title: "Royal Cheese Burger with extra Fries",
-        img: burger,
+        img: fries,
         description:
           "1 McChicken™, 1 Big Mac™,  1 Royal Cheeseburger, 3 medium",
         price: 23.1,
@@ -75,7 +75,7 @@ const foodStore = [
       {
         id: 2,
         title: "The classics for 1",
-        img: burger,
+        img: fries,
         description:
           "1 McChicken™, 1 Big Mac™,  1 Royal Cheeseburger, 3 medium",
         price: 23.1,
@@ -83,7 +83,7 @@ const foodStore = [
       {
         id: 3,
         title: "The classics for 2",
-        img: burger,
+        img: fries,
         description:
           "1 McChicken™, 1 Big Mac™,  1 Royal Cheeseburger, 3 medium",
         price: 23.1,
@@ -91,7 +91,7 @@ const foodStore = [
       {
         id: 4,
         title: "The classics for 3",
-        img: burger,
+        img: fries,
         description:
           "1 McChicken™, 1 Big Mac™,  1 Royal Cheeseburger, 3 medium",
         price: 23.1,
@@ -99,7 +99,7 @@ const foodStore = [
       {
         id: 5,
         title: "The classics for 4",
-        img: burger,
+        img: fries,
         description:
           "1 McChicken™, 1 Big Mac™,  1 Royal Cheeseburger, 3 medium",
         price: 23.1,
@@ -107,7 +107,7 @@ const foodStore = [
       {
         id: 6,
         title: "The classics for 5",
-        img: burger,
+        img: fries,
         description:
           "1 McChicken™, 1 Big Mac™,  1 Royal Cheeseburger, 3 medium",
         price: 23.1,
@@ -120,7 +120,7 @@ const foodStore = [
       {
         id: 1,
         title: "Royal Cheese Burger with extra Fries",
-        img: burger,
+        img: coldDrink1,
         description:
           "1 McChicken™, 1 Big Mac™,  1 Royal Cheeseburger, 3 medium",
         price: 23.1,
@@ -128,7 +128,7 @@ const foodStore = [
       {
         id: 2,
         title: "The classics for 1",
-        img: burger,
+        img: coldDrink2,
         description:
           "1 McChicken™, 1 Big Mac™,  1 Royal Cheeseburger, 3 medium",
         price: 23.1,
@@ -136,7 +136,7 @@ const foodStore = [
       {
         id: 3,
         title: "The classics for 2",
-        img: burger,
+        img: coldDrink3,
         description:
           "1 McChicken™, 1 Big Mac™,  1 Royal Cheeseburger, 3 medium",
         price: 23.1,
@@ -144,7 +144,7 @@ const foodStore = [
       {
         id: 4,
         title: "The classics for 3",
-        img: burger,
+        img: coldDrink4,
         description:
           "1 McChicken™, 1 Big Mac™,  1 Royal Cheeseburger, 3 medium",
         price: 23.1,
@@ -152,7 +152,7 @@ const foodStore = [
       {
         id: 5,
         title: "The classics for 4",
-        img: burger,
+        img: coldDrink5,
         description:
           "1 McChicken™, 1 Big Mac™,  1 Royal Cheeseburger, 3 medium",
         price: 23.1,
@@ -160,7 +160,7 @@ const foodStore = [
       {
         id: 6,
         title: "The classics for 5",
-        img: burger,
+        img: coldDrink6,
         description:
           "1 McChicken™, 1 Big Mac™,  1 Royal Cheeseburger, 3 medium",
         price: 23.1,
