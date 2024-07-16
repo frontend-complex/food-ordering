@@ -1,7 +1,12 @@
 import tracking from "../../../assets/images/icons/Tracking.jpg";
 import contact from "../../../assets/images/icons/contact.png";
+import clock from "../../../assets/images/icons/Clock.png";
 import CardHeading from "./CardHeading";
-import DeliveryTime from "./DeliveryTime";
+import TimeShedule from "./DeliveryTime";
+import {
+  deliveryTime,
+  operationalTime,
+} from "../../../constants/information.constant";
 
 const Information = () => {
   return (
@@ -11,7 +16,7 @@ const Information = () => {
         {/* Heading */}
         <CardHeading img={tracking} title={"Delivery information"} />
         {/* Time Container */}
-        <DeliveryTime />
+        <TimeShedule time={deliveryTime} />
       </div>
       {/* Contact Information */}
       <div className=" w-full py-16 px-10">
@@ -35,7 +40,10 @@ const Information = () => {
         </div>
       </div>
       {/* Operational Times */}
-      <div className="border w-full py-16 px-10 bg-black text-white rounded-r-xl"></div>
+      <div className="border w-full text-white py-16 px-10 bg-black  rounded-r-xl">
+        <CardHeading img={clock} title={"Operational Times"} />
+        <TimeShedule className={"text-white"} time={operationalTime} />
+      </div>
     </div>
   );
 };

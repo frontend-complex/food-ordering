@@ -1,12 +1,10 @@
-import { deliveryTime } from "../../../../constants/information.constant";
-
-const DeliveryTime = () => {
+const TimeShedule = ({ time, className }) => {
   return (
-    <div className="">
-      {deliveryTime.map((time) => (
-        <div key={time?.id} className="flex flex-row items-center mt-8">
-          <h5 className="font-bold text-lg leading-normal">{time?.day} : </h5>
-          <div className="flex flex-row text-lg font-normal text-black">
+    <div className={`${className} mt-8`}>
+      {time.map((time) => (
+        <div key={time?.id} className="flex flex-row items-center ">
+          <h5 className="font-bold text-lg leading-[3]">{time?.day} : </h5>
+          <div className="flex flex-row text-lg font-normal ">
             <p className="">{time?.startTime1}</p> -
             <p className="">{time?.closeTime}</p>
           </div>
@@ -15,4 +13,4 @@ const DeliveryTime = () => {
     </div>
   );
 };
-export default DeliveryTime;
+export default TimeShedule;
