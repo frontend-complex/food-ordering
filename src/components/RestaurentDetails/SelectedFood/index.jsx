@@ -4,7 +4,10 @@ const SelectedFood = () => {
   return (
     <div className="flex flex-row items-center gap-5 mt-24 mb-16">
       {selectedFoodData.map((food) => (
-        <div key={food?.id} className="rounded-xl relative  w-full">
+        <div
+          key={food?.id}
+          className="rounded-xl cursor-pointer relative  w-full"
+        >
           <img src={food?.img} alt="" className="rounded-xl w-full" />
           <div className="bg-gradient-to-bl from-white/0 to-[#03081F] rounded-xl via-[#03081F]/20 absolute inset-y-0 inset-x-0"></div>
           <p className="absolute bg-black text-white p-5  rounded-b-xl text-lg font-bold top-0 right-5 border-none">
