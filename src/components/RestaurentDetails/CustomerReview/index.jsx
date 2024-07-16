@@ -17,6 +17,8 @@ const CustomerReview = () => {
   var settings = {
     dots: false,
     infinite: true,
+    autoplaySpeed: 3000,
+    autoplay: true,
     arrows: false,
     speed: 500,
     slidesToShow: 3,

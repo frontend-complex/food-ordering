@@ -18,9 +18,9 @@ const RestaurentDetails = () => {
       <Information />
       <Map />
       <CustomerReview />
-      {/* <div className="mb-32">
+      <div className="mb-32">
         <PopularRestaurant title={"Similar Restaurants"} />
-      </div> */}
+      </div>
     </div>
   );
 };
