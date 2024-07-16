@@ -3,6 +3,7 @@ import Banner from "../../components/RestaurentDetails/Banner";
 import CategoryRestaurent from "../../components/RestaurentDetails/CategoryRestaurent";
 import FoodCategory from "../../components/RestaurentDetails/FoodCategory";
 import Information from "../../components/RestaurentDetails/Information";
+import Map from "../../components/RestaurentDetails/Map";
 import SelectedFood from "../../components/RestaurentDetails/SelectedFood";
 
 const RestaurentDetails = () => {
@@ -14,6 +15,7 @@ const RestaurentDetails = () => {
       <SelectedFood />
       <CategoryRestaurent />
       <Information />
+      <Map />
       {/* <div className="mb-32">
         <PopularRestaurant title={"Similar Restaurants"} />
       </div> */}
