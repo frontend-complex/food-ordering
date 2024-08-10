@@ -8,14 +8,18 @@ const Category = () => {
       <SectionHeading className={"mt-16 pb-12 "}>
         Order.uk Popular Categories 🤩
       </SectionHeading>
-      <div className="flex flex-col md:flex-row items-center gap-5 ">
+      <div className="flex  flex-row flex-wrap md:flex-nowrap  items-center box-border md:gap-5 -translate-x-3 md:-translate-x-1 ">
         {categoryList.map((category) => (
-          <CategoryCard
-            title={category?.title}
+          <div
+            className="w-1/2 md:w-full h-full pl-5 pb-3 md:pl-0 md:pb-0 md:overflow-x-auto"
             key={category?.id}
-            total={category?.total}
-            img={category?.image}
-          />
+          >
+            <CategoryCard
+              title={category?.title}
+              total={category?.total}
+              img={category?.image}
+            />
+          </div>
         ))}
       </div>
     </section>
