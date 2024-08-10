@@ -4,7 +4,7 @@ import navLinks from "../../../constants/navlinks.constants";
 
 const Navbar = () => {
   return (
-    <nav className="container mx-auto mt-8 mb-10 flex flex-row justify-between ">
+    <nav className="container mx-auto mt-8 mb-10 hidden md:flex flex-row justify-between  ">
       <div className="w-4/12 ">
         <img src={logo} alt="" />
       </div>

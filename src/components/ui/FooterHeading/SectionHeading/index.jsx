@@ -1,7 +1,9 @@
 /* eslint-disable react/prop-types */
 const SectionHeading = ({ children, className }) => {
   return (
-    <h2 className={`font-poppins font-bold text-[32px] text-black ${className}`}>
+    <h2
+      className={`font-poppins font-bold text-2xl md:text-[32px] text-black ${className}`}
+    >
       {children}
     </h2>
   );

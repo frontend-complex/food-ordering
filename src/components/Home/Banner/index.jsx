@@ -3,9 +3,9 @@ import heroImage from "../../../assets/images/header-banner/hero.png";
 
 const Banner = () => {
   return (
-    <section className="bg-silver2 gap-60 border relative border-black/20 font-poppins  rounded-xl flex flex-row items-center pt-12 pl-14">
+    <section className="bg-silver2 gap-10 md:gap-60 border relative border-black/20 font-poppins  rounded-xl flex flex-col-reverse md:flex-row items-center p-5 mt-10 md:mt-0 md:pt-12 md:pl-14">
       {/* left */}
-      <div className="w-5/12 z-30">
+      <div className="w-full md:w-5/12 z-30">
         <p className="text-[#03081F] text-base leading-10 ">
           Order Restaurant food, takeaway and groceries.
         </p>
@@ -29,13 +29,13 @@ const Banner = () => {
         </div>
       </div>
       {/* right */}
-      <div className="w-7/12  z-20 flex justify-end">
+      <div className="w-full md:w-7/12  z-20 flex justify-end">
         <img src={headerBanner} alt="" />
       </div>
       <img
         src={heroImage}
         alt=""
-        className="absolute bottom-0 left-1/2 z-10  -translate-x-[55%]"
+        className="absolute hidden md:block md:bottom-0 md:left-1/2 z-10  -translate-x-[55%]"
       />
     </section>
   );

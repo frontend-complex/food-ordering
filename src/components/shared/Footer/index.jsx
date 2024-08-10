@@ -17,8 +17,8 @@ const Footer = () => {
     <footer className=" font-poppins">
       <section className="bg-gray pt-20  pb-14 ">
         {" "}
-        <div className="flex flex-row container  gap-20 mx-auto">
-          <div className="w-3/12  ">
+        <div className="flex flex-col md:flex-row container  gap-20 mx-auto p-5 md:p-0">
+          <div className="w-full md:w-3/12  ">
             <img src={footerLogo} alt="" />
             <div className="flex flex-row mt-8 gap-1 w-full ">
               <div className="w-full">
@@ -32,8 +32,8 @@ const Footer = () => {
               Company # 490039-445, Registered with ? House of companies.
             </p>
           </div>
-          <div className="w-9/12  flex flex-row gap-10">
-            <div className="w-6/12  ">
+          <div className="w-full md:w-9/12  flex flex-col md:flex-row gap-10">
+            <div className="w-full md:w-6/12  ">
               <FooterHeading>Get Exclusive Deals in your Inbox</FooterHeading>
               <div className="mt-6 relative">
                 <input
@@ -57,7 +57,7 @@ const Footer = () => {
                 <FaSnapchat className="text-5xl" />
               </div>
             </div>
-            <div className="w-3/12  ">
+            <div className="w-full md:w-3/12  ">
               <FooterHeading>Legal Pages</FooterHeading>
               <div className="flex flex-col mt-3 text-[15px]">
                 {legalPages.map((item) => (
@@ -71,7 +71,7 @@ const Footer = () => {
                 ))}
               </div>
             </div>
-            <div className="w-3/12  ">
+            <div className="w-full md:w-3/12  ">
               <FooterHeading>Legal Pages</FooterHeading>
               <div className="flex flex-col mt-3 text-[15px]">
                 {importantLinks.map((item) => (
@@ -90,9 +90,11 @@ const Footer = () => {
       </section>
 
       <section className="bg-[#03081F] text-white    ">
-        <div className="container mx-auto flex flex-row items-center justify-between py-8">
+        <div className="container mx-auto flex flex-col md:flex-row items-center justify-between py-8">
           <div className="">
-            <p className="">Order.uk Copyright 2024, All Rights Reserved.</p>
+            <p className="text-center md:text-left mb-5 md:mb-0">
+              Order.uk Copyright 2024, All Rights Reserved.
+            </p>
           </div>
           <div className="flex flex-row gap-5 items-center text-white">
             {bottomFooterLinks.map((item) => (

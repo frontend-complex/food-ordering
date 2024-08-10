@@ -8,8 +8,8 @@ import DealCard from "./DealCard";
 
 const ExclusiveDeals = () => {
   return (
-    <div>
-      <div className=" my-14 flex flex-row items-center justify-between">
+    <div className="md:p-0 p-5">
+      <div className=" my-14 flex flex-col md:flex-row items-center justify-between">
         <SectionHeading>Up to -40% 🎊 Order.uk exclusive deals</SectionHeading>
         <div className="flex flex-row items-center gap-8 font-normal font-poppins text-black text-base">
           {exclusiveDealsLink.map((item) => (
@@ -19,7 +19,7 @@ const ExclusiveDeals = () => {
           ))}
         </div>
       </div>
-      <div className="flex flex-row gap-5 ">
+      <div className="flex flex-col  md:flex-row gap-5 ">
         {exclusiveDeals[1].content.map((deal) => (
           <DealCard
             className={"rounded-xl"}

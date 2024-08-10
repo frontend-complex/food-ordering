@@ -3,9 +3,9 @@ import SectionHeading from "../../ui/FooterHeading/SectionHeading";
 
 const PopularRestaurant = ({ title }) => {
   return (
-    <section className="">
+    <section className="p-5 md:p-0">
       <SectionHeading className={"my-14"}>{title}</SectionHeading>
-      <div className="flex flex-row items-center justify-between gap-5">
+      <div className="flex  flex-col md:flex-row items-center justify-between gap-5">
         {popularRestaurantList.map((restaurant) => (
           <div key={restaurant.id} className="rounded-xl ">
             <div className=" w-full">
